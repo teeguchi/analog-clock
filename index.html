@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>アナログ時計</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta name="description" content="全画面表示のアナログ時計です。">
+		
+		<meta property="og:title" content="アナログ時計">
+		<meta property="og:type" content="article">
+		<meta property="og:description" content="全画面表示のアナログ時計です。">
+		<meta property="og:url" content="https://teeguchi.com/sh/analog-clock/">
+		<meta property="og:site_name" content="TeeGuchi">
+		<meta property="og:locale" content="ja_JP">
+		<meta property="og:image" content="https://teeguchi.com/assets/images/img_ogp_app_600x315.png">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@teeguchicom">
+		
+		<link rel="canonical" href="https://teeguchi.com/sh/analog-clock/">
+		<link rel="icon" href="/assets/images/siteicon_180x180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="/assets/images/siteicon_180x180.png">
+		<meta name="msapplication-TileImage" content="https://teeguchi.com/assets/images/siteicon_270x270.png">
+		<link rel="stylesheet" href="analog-clock.css">
+	</head>
+	<body class="default-mode">
+		<header id="clock-header">
+			<h1 id="clock-title">ANALOG CLOCK</h1>
+		</header>
+		<article id="canvas-wrap">
+			<canvas id="canvas-dial" width="" height="">アナログ時計の文字盤</canvas>
+			<canvas id="canvas-needle" width="" height="">アナログ時計の針</canvas>
+		</article>
+		<ul id="change-style">
+			<li><input id="default-btn" name="style-btn" type='radio' value="default"><label for="default-btn"><span>Default</span></label></li>
+			<li><input id="dark-btn" name="style-btn" type='radio' value="dark"><label for="dark-btn"><span>Dark</span></label></li>
+		</ul>
+		<footer id="clock-footer">
+			<small>&copy; 2022 <a href="https://teeguchi.com/">TeeGuchi</a></small>
+		</footer>
+		<script src="analog-clock.js"></script>
+	</body>
+</html>
