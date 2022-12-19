@@ -10,3 +10,6 @@ Canvas APIを利用したアナログ時計です。ほぼ、全画面で表示�
 "Noto Serif JP"  
 Lisenced under the SIL Open Font License 1.1, see OFL.txt.  
 Source: https://fonts.google.com/noto/specimen/Noto+Serif+JP
+
+### デモ
+https://teeguchi.com/sh/analog-clock/
